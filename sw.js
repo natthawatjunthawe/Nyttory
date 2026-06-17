@@ -1,0 +1,2 @@
+const C="nyttory-core-v2",A=["./index.html","./app.js","./manifest.json","./data.json"];self.addEventListener("install",e=>e.waitUntil(caches.open(C).then(c=>c.addAll(A)).then(()=>self.skipWaiting())));self.addEventListener("activate",e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.map(x=>{if(x!==C)return caches.delete(x)}))).then(()=>self.clients.claim())));self.addEventListener("fetch",e=>e.respondWith(fetch(e.request).then(f=>{if(f.status===200){const c=f.clone();caches.open(C).then(cache=>cache.put(e.request,c))}return f}).catch(()=>caches.match(e.request))));
+
