@@ -1,1 +1,157 @@
-{"version":"2.0.9","avatars":["Nyttory.png","https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150","https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=150","https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=150"],"users":[{"id":"u1","name":"Sarah Jenkins","avatar":"S"},{"id":"u2","name":"Mike Ross","avatar":"M"},{"id":"u3","name":"Elena Gilbert","avatar":"E"},{"id":"u4","name":"David Chen","avatar":"D"}],"posts":[{"id":"p_sys_1","authorId":"u1","authorName":"Sarah Jenkins","authorAvatar":"S","text":"Just installed Nyttory. The offline sync is insane! It feels exactly like a native app. ✨","timestamp":1718000000000,"reactions":{"like":12,"love":5,"haha":0,"wow":2,"sad":0,"angry":0},"userReaction":null,"comments":[{"id":"c_1","authorName":"Mike Ross","authorAvatar":"M","text":"Right? The UI is so clean and fast.","timestamp":1718000500000}]},{"id":"p_sys_2","authorId":"u4","authorName":"David Chen","authorAvatar":"D","text":"Testing the Service Worker caching while offline. Everything loads instantly! 🚀","timestamp":1718010000000,"reactions":{"like":8,"love":2,"haha":0,"wow":4,"sad":0,"angry":0},"userReaction":null,"comments":[{"id":"c_2","authorName":"Elena Gilbert","authorAvatar":"E","text":"Same here, PWA implementation is top notch.","timestamp":1718010800000}]}],"auto_comments":["This is so cool!","Totally agree with you 💯","Wow, amazing!","Love the vibe here.","Keep it up! 🚀","Interesting thoughts 🤔","Thanks for sharing!"]}
+{
+  "version": "2.0.7",
+  "avatars": [
+    "Nyttory.png",
+    "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=300&q=80",
+    "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=300&q=80",
+    "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80",
+    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&q=80"
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "name": "Sarah Jenkins",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80",
+      "bio": "Digital Creator & UX/UI Designer 🎨 ชอบสร้างสรรค์สิ่งใหม่ๆ",
+      "work": "Designer at Nyttory Studio",
+      "relationship": "มีแฟนแล้ว"
+    },
+    {
+      "id": "u2",
+      "name": "Mike Ross",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=300&q=80",
+      "bio": "Full Stack Developer | Coffee & Code ☕💻",
+      "work": "Senior Software Engineer at Tech Global",
+      "relationship": "โสด"
+    },
+    {
+      "id": "u3",
+      "name": "Elena Gilbert",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&q=80",
+      "bio": "Blogger แนะนำสถานที่ท่องเที่ยวและรีวิวอาหารรสเด็ด ✈️🍕",
+      "work": "Content Creator (Freelance)",
+      "relationship": "ซับซ้อน"
+    },
+    {
+      "id": "u4",
+      "name": "David Chen",
+      "avatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=300&q=80",
+      "bio": "นักศึกษาคณะวิศวกรรมศาสตร์ สาขาคอมพิวเตอร์ 🚀",
+      "work": "มหาวิทยาลัยนวัตกรรมเทคโนโลยี",
+      "relationship": "โสด"
+    }
+  ],
+  "posts": [
+    {
+      "id": "p_sys_1",
+      "authorId": "sys",
+      "authorName": "Nyttory",
+      "authorAvatar": "<img src='Nyttory.png' style='width:100%;height:100%;object-fit:cover;border-radius:50%'>",
+      "text": "ยินดีต้อนรับสู่ Nyttory เวอร์ชั่นอัปเกรดที่เร็วและลื่นไหลกว่าเดิม! ระบบอัปเดตอัตโนมัติ โหลดไข่ปลาพร้อมอนิเมชั่นจัดเต็ม 10 แบบทำงานร่วมกับไฟล์ data.json เรียบร้อยแล้วครับ 🚀",
+      "timestamp": 1718000000000,
+      "reactions": {
+        "like": 42,
+        "love": 28,
+        "haha": 3,
+        "wow": 9,
+        "sad": 0,
+        "angry": 0
+      },
+      "userReaction": null,
+      "comments": [
+        {
+          "id": "c_sys_1",
+          "authorName": "System Admin",
+          "authorAvatar": "A",
+          "text": "แอปออฟไลน์พร้อมรับการอัปเดตตลอดเวลา ลื่นไหลสุดๆ!",
+          "timestamp": 1718000500000
+        }
+      ]
+    },
+    {
+      "id": "p_user_1",
+      "authorId": "u1",
+      "authorName": "Sarah Jenkins",
+      "authorAvatar": "<img src='https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80' style='width:100%;height:100%;object-fit:cover;border-radius:50%'>",
+      "text": "ชอบระบบเปลี่ยนรูปโปรไฟล์ใหม่มาก! UX เหมือน Facebook เลย แถมมีอนิเมชั่นตอนบันทึกข้อมูลเนียนตามากๆ ให้ฟีลลิ่งแอปราคาแพงเลยยยย ✨",
+      "timestamp": 1718010000000,
+      "reactions": {
+        "like": 18,
+        "love": 12,
+        "haha": 0,
+        "wow": 2,
+        "sad": 0,
+        "angry": 0
+      },
+      "userReaction": null,
+      "comments": [
+        {
+          "id": "c_u1_1",
+          "authorName": "Mike Ross",
+          "authorAvatar": "M",
+          "text": "เห็นด้วยเลยครับ อนิเมชั่นตอนกดเซฟคือเนียนตามาก ของเค้าดีจริง 👍",
+          "timestamp": 1718010500000
+        }
+      ]
+    },
+    {
+      "id": "p_user_2",
+      "authorId": "u2",
+      "authorName": "Mike Ross",
+      "authorAvatar": "<img src='https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=300&q=80' style='width:100%;height:100%;object-fit:cover;border-radius:50%'>",
+      "text": "นั่งเคลียร์โค้ดระบบหลังบ้านของโปรเจกต์ใหม่เสร็จเรียบร้อย วันนี้ทำงานแบบออฟไลน์ไม่มีสะดุดเลย ระบบ Service Worker ของ Nyttory ทำงานเสถียรมากครับเอาไป 10 เต็ม 10 💻🔥",
+      "timestamp": 1718020000000,
+      "reactions": {
+        "like": 25,
+        "love": 4,
+        "haha": 1,
+        "wow": 6,
+        "sad": 0,
+        "angry": 0
+      },
+      "userReaction": null,
+      "comments": [
+        {
+          "id": "c_u2_1",
+          "authorName": "David Chen",
+          "authorAvatar": "D",
+          "text": "สุดยอดครับพี่ ไม่อยากจะคิดเลยถ้าอัปเดตเวอร์ชั่นใหม่จะโหดขนาดไหน!",
+          "timestamp": 1718021000000
+        }
+      ]
+    },
+    {
+      "id": "p_user_3",
+      "authorId": "u3",
+      "authorName": "Elena Gilbert",
+      "authorAvatar": "<img src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&q=80' style='width:100%;height:100%;object-fit:cover;border-radius:50%'>",
+      "text": "วันนี้ไปเจอร้านกาแฟเปิดใหม่มา บรรยากาศเงียบสงบเหมาะแก่การนั่งทำงานมาก แถมกาแฟส้มสกัดเย็นคือที่สุด! ไว้จะเขียนรีวิวตัวเต็มให้อ่านกันนะคะ ☕✨",
+      "timestamp": 1718030000000,
+      "reactions": {
+        "like": 30,
+        "love": 19,
+        "haha": 0,
+        "wow": 4,
+        "sad": 0,
+        "angry": 0
+      },
+      "userReaction": null,
+      "comments": [
+        {
+          "id": "c_u3_1",
+          "authorName": "Sarah Jenkins",
+          "authorAvatar": "S",
+          "text": "รอปักหมุดตามไปเลยค่าาา ร้านสวยมาก!",
+          "timestamp": 1718031200000
+        }
+      ]
+    }
+  ],
+  "auto_comments": [
+    "สุดยอดไปเลยครับระบบนี้! 💯",
+    "อนิเมชั่นไข่ปลาตอนโหลดเท่มาก ฮ่าๆ",
+    "ตามมาจากเวอร์ชั่นแรก ลื่นขึ้นเยอะเลย 🚀",
+    "แอปออฟไลน์แต่เช็คอัปเดตได้ตลอด เจ๋งจริง!",
+    "ระบบบันทึกโพสต์ทำงานไวมาก ชอบๆ 🤔"
+  ]
+}
