@@ -1,1 +1,101 @@
-<!DOCTYPE html><html lang="en" translate="no"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="theme-color" content="#f0f2f5"><link rel="manifest" href="manifest.json"><title>Nyttory</title><style>:root{--bg:#f0f2f5;--card:#ffffff;--text:#050505;--sub:#65676b;--act:#0866ff;--bor:#e4e6eb}*{box-sizing:border-box;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,sans-serif;-webkit-tap-highlight-color:transparent;user-select:none}body{background:var(--bg);color:var(--text);min-height:100vh;padding-bottom:80px;overflow-x:hidden;overscroll-behavior-y:contain}input,textarea{user-select:text}.top-bar,.bottom-bar{transition:transform .3s ease;z-index:100}.top-bar.hide{transform:translateY(-100%)}.bottom-bar.hide{transform:translateY(100%)}.fs-screen{position:fixed;inset:0;background:#fff;z-index:9999;display:none;flex-direction:column;align-items:center;justify-content:center}.fs-screen.on{display:flex}.fb-logo{width:150px;height:150px;margin-bottom:20px;border-radius:18px}.dot-loader{display:flex;gap:6px}.dot{width:10px;height:10px;background:var(--sub);border-radius:50%;animation:bnce 1.4s infinite ease-in-out both}.dot:nth-child(1){animation-delay:-.32s}.dot:nth-child(2){animation-delay:-.16s}@keyframes bnce{0%,80%,100%{transform:scale(0)}40%{transform:scale(1)}}.upd-bar-container{width:80%;max-width:300px;height:6px;background:var(--bor);border-radius:5px;overflow:hidden;margin-top:auto;margin-bottom:10px}.upd-bar{width:0%;height:100%;background:var(--act);transition:width .2s linear}.upd-text{color:var(--sub);font-size:13px;margin-bottom:40px;font-weight:500}.btn-update{background:var(--act);color:#fff;padding:12px 32px;border-radius:8px;font-weight:bold;cursor:pointer;margin-top:auto;margin-bottom:40px}.nav{background:var(--card);padding:15px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;border-bottom:1px solid var(--bor);padding-top:max(15px,env(safe-area-inset-top))}.logo{font-size:24px;font-weight:900;color:var(--act);letter-spacing:1px}.av{width:40px;height:40px;min-width:40px;min-height:40px;flex-shrink:0;border-radius:50%;background:linear-gradient(135deg,var(--act),#10b981);display:flex;justify-content:center;align-items:center;font-weight:bold;color:#fff;background-size:cover;background-position:center;cursor:pointer}.view{display:none;padding:15px;max-width:600px;margin:0 auto;animation:fUp .4s cubic-bezier(.175,.885,.32,1.275)}.view.on{display:block}.card{background:var(--card);border-radius:8px;padding:15px;margin-bottom:20px;border:1px solid var(--bor);box-shadow:0 1px 2px rgba(0,0,0,.1)}.inp,#pInp{width:100%;background:#f0f2f5;border:1px solid var(--bor);border-radius:20px!important;padding:10px 15px;color:var(--text);font-size:16px;resize:none;outline:none;min-height:60px;margin-bottom:10px}.btn{background:var(--act);color:#fff;border:none;padding:12px;border-radius:8px;font-weight:bold;width:100%;transition:.1s;cursor:pointer}.btn:active{transform:scale(.95)}.ph{display:flex;gap:12px;margin-bottom:12px;cursor:pointer}.pi{flex:1}.pn{font-weight:bold;font-size:16px}.pt{font-size:12px;color:var(--sub)}.pc{font-size:15px;line-height:1.5;white-space:pre-wrap;margin-bottom:15px;word-break:break-word}.rc{display:flex;gap:10px;border-top:1px solid var(--bor);padding-top:10px;position:relative}.rb{flex:1;text-align:center;padding:8px;border-radius:8px;color:var(--sub);font-size:14px;display:flex;justify-content:center;align-items:center;gap:5px;transition:.2s;cursor:pointer}.rb:active{background:rgba(0,0,0,.05);transform:scale(.95)}.rm{position:absolute;bottom:50px;left:0;background:var(--card);border:1px solid var(--bor);border-radius:30px;padding:8px 12px;display:flex;gap:15px;box-shadow:0 10px 25px rgba(0,0,0,.15);opacity:0;pointer-events:none;transform:translateY(10px);transition:.2s;z-index:50}.rm.on{opacity:1;pointer-events:all;transform:translateY(0)}.re{font-size:24px;transition:.2s;cursor:pointer}.re:hover{transform:scale(1.3) translateY(-5px)}.cmt-sec{display:none;border-top:1px solid var(--bor);margin-top:10px;padding-top:10px}.cmt-sec.on{display:block}.cmt{background:#f0f2f5;padding:10px;border-radius:12px;margin-bottom:8px;font-size:14px}.c-inp-wrap{display:flex;gap:10px;margin-top:10px;align-items:center}.c-inp-wrap input{flex:1;min-height:40px;margin:0;padding:10px 15px;border-radius:20px;background:#f0f2f5;border:1px solid var(--bor);outline:none;color:var(--text);font-size:14px}.c-btn{background:var(--act);color:#fff;border:none;padding:10px 16px;border-radius:20px;font-weight:bold;cursor:pointer;transition:.2s}.c-btn:active{transform:scale(0.95)}.bnav{position:fixed;bottom:0;width:100%;background:var(--card);display:flex;justify-content:space-around;padding:12px 0;border-top:1px solid var(--bor);padding-bottom:max(12px,env(safe-area-inset-bottom));z-index:100}.ni{font-size:24px;opacity:.5;transition:.2s;cursor:pointer}.ni.on{opacity:1;color:var(--act);transform:scale(1.1)}.tst{position:fixed;bottom:100px;left:50%;transform:translateX(-50%);background:var(--text);color:#fff;padding:10px 20px;border-radius:20px;font-size:14px;z-index:1000;opacity:0;transition:.3s}.tst.on{opacity:1}.cov{height:150px;background:linear-gradient(45deg,#1e293b,#3b82f6);border-radius:8px 8px 0 0;position:relative;background-size:cover;background-position:center;cursor:pointer}.fg{margin-bottom:15px}.fg label{display:block;font-size:12px;color:var(--sub);margin-bottom:5px;text-transform:uppercase}.fg input,.fg select{width:100%;background:#f0f2f5;border:1px solid var(--bor);color:var(--text);padding:12px;border-radius:10px;outline:none}.fg input:disabled,.fg select:disabled{opacity:.7;cursor:not-allowed}@keyframes fUp{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}.img-vw{position:fixed;inset:0;background:rgba(0,0,0,0.9);z-index:10000;display:none;align-items:center;justify-content:center;flex-direction:column}.img-vw.on{display:flex}.img-vw img{max-width:90%;max-height:80%;object-fit:contain}.img-vw .cls{color:white;margin-top:20px;padding:10px 20px;background:rgba(255,255,255,0.2);border-radius:10px;cursor:pointer}.upld-mdl{position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:10000;display:none;align-items:center;justify-content:center}.upld-mdl.on{display:flex}.upld-box{background:var(--card);padding:25px;border-radius:12px;width:80%;max-width:350px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,0.2)}.upld-bar-bg{width:100%;height:8px;background:var(--bor);border-radius:4px;margin:15px 0;overflow:hidden}.upld-bar{width:0%;height:100%;background:var(--act);transition:width 0.1s linear}.upld-txt{font-weight:bold;color:var(--text)}.act-sheet{position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:9999;display:none;align-items:flex-end}.act-sheet.on{display:flex}.act-menu{background:var(--card);width:100%;border-radius:20px 20px 0 0;padding:20px;animation:slideUp 0.3s ease}.act-btn{padding:15px;text-align:center;font-size:16px;font-weight:bold;color:var(--text);border-bottom:1px solid var(--bor);cursor:pointer}.act-btn:last-child{border-bottom:none;color:red}@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}</style></head><body><div id="initLoad" class="fs-screen on"><img src="Nyttory.png" class="fb-logo" alt="Nyttory"><div class="dot-loader"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div></div><div id="uPrmpt" class="fs-screen"><img src="Nyttory.png" class="fb-logo" alt="Nyttory"><h2 style="color:var(--text);margin-bottom:10px">New Version Available</h2><p style="color:var(--sub);margin-bottom:40px">Update your app for the best experience</p><div id="btnDoUpd" class="btn-update">Update Now</div></div><div id="uScr" class="fs-screen"><img src="Nyttory.png" class="fb-logo" alt="Nyttory"><div class="upd-bar-container"><div id="uPrg" class="upd-bar"></div></div><div id="uTxt" class="upd-text">Checking for updates... 0%</div></div><div class="nav top-bar"><div class="logo">Nyttory</div><div id="nAv" class="av" onclick="vwPrf('me')">U</div></div><div id="vF" class="view on"><input type="text" id="shInp" class="inp" placeholder="🔍 Search notes..."><div class="card"><div style="display:flex;gap:10px;margin-bottom:10px"><div id="fAv" class="av">U</div><textarea id="pInp" class="inp" placeholder="What's on your mind?"></textarea></div><button class="btn" id="pBtn">Post</button></div><div id="fCon"></div></div><div id="vP" class="view"><div class="cov" id="pCov"><div class="av" id="pbAv" style="position:absolute;bottom:-40px;left:20px;width:80px;height:80px;border:4px solid var(--card);font-size:30px">U</div></div><div class="card" style="border-radius:0 0 8px 8px;border-top:none;padding-top:50px;margin-bottom:15px"><div class="fg"><label>Display Name</label><input type="text" id="prN"></div><div class="fg"><label>Bio</label><input type="text" id="prB"></div><div class="fg"><label>Work/School</label><input type="text" id="prW"></div><div class="fg"><label>Relationship</label><select id="prR"><option>Single</option><option>In a relationship</option><option>Complicated</option></select></div><button class="btn" id="sPrBtn" style="background:var(--act)">Save Profile</button></div><div id="uFCon"></div></div><div class="bnav bottom-bar"><div class="ni on" id="tF" onclick="sT('F')">📃</div><div class="ni" id="tP" onclick="vwPrf('me')">👤</div></div><div id="tst" class="tst"></div><div id="imgVw" class="img-vw" onclick="this.classList.remove('on')"><img id="ivImg" src=""><div class="cls">Close</div></div><div id="upldMdl" class="upld-mdl"><div class="upld-box"><div id="upTxt" class="upld-txt">Uploading... 0%</div><div class="upld-bar-bg"><div id="upBar" class="upld-bar"></div></div></div></div><div id="iOptMdl" class="act-sheet" onclick="if(event.target===this)this.classList.remove('on')"><div class="act-menu"><div class="act-btn" onclick="doVwImg()">View Picture</div><div class="act-btn" onclick="doUpImg()">Upload Picture</div><div class="act-btn" onclick="document.getElementById('iOptMdl').classList.remove('on')">Cancel</div></div></div><script src="app.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#f0f2f5">
+<link rel="manifest" href="manifest.json">
+<title>Nyttory</title>
+<style>
+:root{--bg:#f0f2f5;--card:#ffffff;--text:#050505;--sub:#65676b;--act:#0866ff;--bor:#e4e6eb;--s-bg:linear-gradient(120deg,#e4e6eb 0%,#ffffff 50%,#e4e6eb 100%)}
+*{box-sizing:border-box;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,sans-serif;-webkit-tap-highlight-color:transparent;user-select:none}
+body{background:var(--bg);color:var(--text);min-height:100vh;padding-bottom:80px;overflow-x:hidden;overscroll-behavior-y:contain}
+input,textarea{user-select:text}
+.top-bar,.bottom-bar{transition:transform .3s ease;z-index:100}
+.top-bar.hide{transform:translateY(-100%)}
+.bottom-bar.hide{transform:translateY(100%)}
+.fs-screen{position:fixed;inset:0;background:#fff;z-index:999}
+.sh-wrap{position:relative;margin:15px;display:flex;align-items:center}
+.sh-wrap svg{position:absolute;left:15px;color:var(--act)}
+#shInp{width:100%;padding:12px 15px 12px 45px;border-radius:25px;border:1px solid var(--act);outline:none;background:var(--s-bg);background-size:200% auto;animation:shine 3s linear infinite;color:var(--text);font-weight:bold;transition:all .3s}
+@keyframes shine{to{background-position:200% center}}
+.card{background:var(--card);margin:15px;border-radius:12px;padding:15px;box-shadow:0 1px 3px rgba(0,0,0,0.1)}
+.btn{background:var(--act);color:#fff;border:none;padding:10px 20px;border-radius:6px;font-weight:bold;cursor:pointer;width:100%}
+.inp{width:100%;border:1px solid var(--bor);border-radius:6px;padding:10px;outline:none;background:var(--bg);color:var(--text)}
+.bnav{position:fixed;bottom:0;width:100%;background:var(--card);display:flex;justify-content:space-around;padding:10px 0;box-shadow:0 -1px 3px rgba(0,0,0,0.1);border-radius:20px 20px 0 0}
+.ni{padding:10px;border-radius:10px;color:var(--sub);cursor:pointer;transition:all .3s}
+.ni.on{color:var(--act);background:rgba(8,102,255,0.1)}
+.view{display:none;animation:fade .3s ease}
+.view.on{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.av{width:40px;height:40px;border-radius:50%;background:var(--act);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:bold}
+.p-hdr{display:flex;align-items:center;gap:10px;margin-bottom:10px;position:relative}
+.p-info{flex:1}
+.p-info b{font-size:15px}
+.p-info span{font-size:12px;color:var(--sub)}
+.p-opts{cursor:pointer;padding:5px;color:var(--sub);transition:0.2s}
+.p-opts:active{transform:scale(0.9)}
+.opt-menu{position:absolute;right:0;top:30px;background:var(--card);box-shadow:0 2px 10px rgba(0,0,0,0.2);border-radius:8px;overflow:hidden;display:none;z-index:50;opacity:0;transform:translateY(-10px);transition:all .2s ease}
+.opt-menu.show{display:block;opacity:1;transform:translateY(0)}
+.opt-i{padding:12px 20px;font-size:14px;cursor:pointer;white-space:nowrap;border-bottom:1px solid var(--bor)}
+.opt-i:last-child{border-bottom:none}
+.opt-i:active{background:var(--bg)}
+.p-txt{margin-bottom:15px;font-size:15px;line-height:1.4}
+.react-bar{display:flex;justify-content:space-between;border-top:1px solid var(--bor);padding-top:10px;position:relative}
+.r-btn{display:flex;align-items:center;gap:5px;color:var(--sub);font-weight:bold;cursor:pointer;padding:5px 10px;border-radius:5px;transition:0.2s}
+.r-btn:active{background:var(--bg);transform:scale(0.95)}
+.r-box{position:absolute;bottom:40px;left:0;background:var(--card);box-shadow:0 2px 10px rgba(0,0,0,0.2);border-radius:30px;padding:5px 10px;display:flex;gap:10px;opacity:0;pointer-events:none;transform:translateY(10px);transition:all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);z-index:20}
+.r-box.show{opacity:1;pointer-events:all;transform:translateY(0)}
+.r-emoji{font-size:24px;cursor:pointer;transition:transform .2s}
+.r-emoji:hover{transform:scale(1.3)}
+.c-sec{display:none;margin-top:15px;border-top:1px solid var(--bor);padding-top:15px;opacity:0;transition:opacity .3s ease}
+.c-sec.show{display:block;opacity:1}
+.c-item{display:flex;gap:10px;margin-bottom:10px}
+.c-box{background:var(--bg);padding:10px;border-radius:12px;font-size:14px;flex:1}
+.fg{margin-bottom:15px}
+.fg label{display:block;margin-bottom:5px;font-size:13px;color:var(--sub);font-weight:bold}
+.tst{position:fixed;top:20px;left:50%;transform:translate(-50%,-20px);background:#333;color:#fff;padding:10px 20px;border-radius:20px;font-size:14px;opacity:0;pointer-events:none;transition:.3s;z-index:9999}
+.tst.on{opacity:1;transform:translate(-50%,0)}
+</style>
+</head>
+<body>
+<div id="vF" class="view on">
+<div class="sh-wrap">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+<input type="text" id="shInp" placeholder="ค้นหาเรื่องราวใน Nyttory...">
+</div>
+<div class="card">
+<div style="display:flex;gap:10px;margin-bottom:10px">
+<div id="fAv" class="av">U</div>
+<textarea id="pInp" class="inp" placeholder="คุณกำลังคิดอะไรอยู่?"></textarea>
+</div>
+<button class="btn" id="pBtn">โพสต์</button>
+</div>
+<div id="fCon"></div>
+</div>
+<div id="vP" class="view">
+<div class="card" style="border-radius:0 0 8px 8px;padding-top:30px;margin-bottom:15px">
+<div class="fg"><label>ชื่อแสดงผล</label><input type="text" id="prN" class="inp"></div>
+<div class="fg"><label>ชีวประวัติ</label><input type="text" id="prB" class="inp"></div>
+<div class="fg"><label>ที่ทำงาน/โรงเรียน</label><input type="text" id="prW" class="inp"></div>
+<div class="fg"><label>สถานะ</label>
+<select id="prR" class="inp"><option>โสด</option><option>มีแฟนแล้ว</option><option>ซับซ้อน</option></select>
+</div>
+<button class="btn" id="sPrBtn">บันทึกโปรไฟล์</button>
+</div>
+<div id="uFCon"></div>
+</div>
+<div class="bnav bottom-bar">
+<div class="ni on" id="tF" onclick="sT('F')">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+</div>
+<div class="ni" id="tP" onclick="vwPrf('me')">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+</div>
+</div>
+<div id="tst" class="tst"></div>
+<script src="app.js"></script>
+</body>
+</html>
