@@ -46,7 +46,7 @@
     {
       "id": "p_user_1",
       "authorId": "u1",
-      "authorName": ตัวทดลองระบบ",
+      "authorName": "ตัวทดลองระบบ",
       "text": "เพิ่งเข้ามาเล่นครับ",
       "timestamp": 1718010000000,
       "reactions": { "like": 18, "love": 12, "haha": 0, "wow": 2, "sad": 0, "angry": 0 },
