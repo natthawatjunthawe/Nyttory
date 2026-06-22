@@ -1,16 +1,16 @@
 {
-  "version": "2.0.7",
+  "version": "2.0.8",
   "avatars": [
     "Nyttory.png"
   ],
   "users": [
     {
       "id": "u1",
-      "name": "Sarah Jenkins",
-      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80",
-      "bio": "Digital Creator & UX/UI Designer 🎨 ชอบสร้างสรรค์สิ่งใหม่ๆ",
-      "work": "Designer at Nyttory Studio",
-      "relationship": "มีแฟนแล้ว"
+      "name": "Natthawát Junthawè",
+      "avatar": "Nyttory.png",
+      "bio": "CEO In The FuncGiNes",
+      "work": "FuncGiNes",
+      "relationship": "โสด"
     },
     {
       "id": "u2",
